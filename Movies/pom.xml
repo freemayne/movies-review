@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.semirpecar</groupId>
-	<artifactId>movies</artifactId>
+	<artifactId>movieservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>movies</name>
 	<description>Simple API for movies</description>
