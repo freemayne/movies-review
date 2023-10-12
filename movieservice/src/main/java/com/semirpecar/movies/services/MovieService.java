@@ -2,7 +2,6 @@ package com.semirpecar.movies.services;
 
 import com.semirpecar.movies.entities.Movie;
 import com.semirpecar.movies.repositories.MovieRepo;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
