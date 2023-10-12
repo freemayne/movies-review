@@ -60,8 +60,8 @@ const Reviews: React.FC<ReviewsProps> = ({ getMovieData, movie, reviews, setRevi
           )}
           {reviews && Array.isArray(reviews) ? (
   reviews.map((r, index) => (
-    <div key={index} className="mb-4 border p-5">
-      <div className="font-bold">Comment:</div>
+    <div key={index} className="mb-4 border-b p-5">
+
       <div>{r.body}</div>
     </div>
   ))
