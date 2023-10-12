@@ -3,6 +3,7 @@ import makeRequest from "./api/fetchConfig";
 import Layout from "./components/Layout";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
+import Header from "./components/header/Header";
 
 function App() {
   const [movies, setMovies] = useState<any>([]);
@@ -23,7 +24,8 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen bg-black text-white mt-10">
+    <div className="flex flex-col min-h-screen bg-black text-white font-quicksand ">
+      <Header />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home movies={movies} />}></Route>
