@@ -18,7 +18,7 @@ const Header = () => {
 
           <NavLink to="/" className="text-2xl font-bold text-yellow-500 flex items-center">
             <FaVideoSlash className="mr-2" />
-            Gold
+            Reviewer
           </NavLink>
 
 
